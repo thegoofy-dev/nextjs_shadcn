@@ -64,7 +64,7 @@ const SideBar = () => {
                             <CommandGroup key={key} heading={menu.group}>
                                 {menu.items.map((option: any, optionKey: number) => (
                                     <CommandItem key={optionKey} className="cursor-pointer transition data-[selected=true]:bg-accent data-[selected=true]:text-accent-foreground hover:border-t-2 
-                                    hover:border-l-2 hover:data-[selected=true]:text-amber-500 hover:border-amber-400 flex gap-2">
+                                    hover:border-l-2 hover:data-[selected=true]:text-amber-500 hover:border-amber-400 flex m-1 gap-3">
                                         {option.icon}
                                         {option.text}
                                     </CommandItem>

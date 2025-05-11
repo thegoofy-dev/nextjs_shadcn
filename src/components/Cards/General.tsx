@@ -246,12 +246,12 @@ export default function General() {
         }
     ]
     return (
-        <Card className='w-full'>
+        <Card className='min-w-2xs w-full'>
             <CardHeader>
                 <CardTitle>This Year</CardTitle>
                 <CardDescription>Mosted Used One&apos;s</CardDescription>
             </CardHeader>
-            <CardContent className="grid gap-4 h-[340px]">
+            <CardContent className="grid gap-4 h-[430px]">
                 <MyResponsiveAreaBump data={data} />
             </CardContent>
         </Card>
